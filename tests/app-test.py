@@ -1,0 +1,19 @@
+import unittest
+import sys
+sys.path.append("c:/PUMRP/Week3/Lab/app/src")
+from app import my_function
+
+
+class MyTest(unittest.TestCase):
+    def test_my_function(self):
+        self.assertEqual(my_function(1, 1), 2)
+        self.assertEqual(my_function(1, -1), 0)
+        self.assertEqual(my_function(0, 0), 0)
+        self.assertEqual(my_function(-1, -1), -2)
+        self.assertEqual(my_function(1.0, 1), 2)        
+        self.assertEqual(my_function(1.1, 1.1), 2.2)        
+        
+        
+        
+if __name__ == '__main__':
+    unittest.main()        
