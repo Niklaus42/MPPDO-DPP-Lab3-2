@@ -1,6 +1,6 @@
 import unittest
 import sys
-sys.path.append("c:/PUMRP/Week3/Lab/app/src")
+sys.path.append("app/src")
 from app import my_function
 
 
