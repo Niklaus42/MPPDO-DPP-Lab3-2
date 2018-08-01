@@ -2,6 +2,7 @@ import unittest
 import sys
 import os
 sys.path.append(os.getcwd()+"/app/src")
+print(sys.path)
 from app import my_function
 
 
