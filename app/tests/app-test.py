@@ -1,6 +1,7 @@
 import unittest
 import sys
-sys.path.append("app/src")
+import os
+sys.path.append(os.getcwd()+"/app/src")
 from app import my_function
 
 
